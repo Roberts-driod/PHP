@@ -28,6 +28,13 @@ if ($result->num_rows > 0) {
                 echo "</ul>"; 
             }
 
+            //post1 comment1
+            //post1 comment2
+            //post1 comment3
+            //post2 comment1
+            //post2 comment2
+            //post3
+
             $current_post_id = $row["post_id"];
             echo "<h2>" . $row["title"] . "</h2>";
             echo "<p>" . $row["content"] . "</p>";
